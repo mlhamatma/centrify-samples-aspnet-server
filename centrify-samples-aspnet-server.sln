@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio Express 2013 for Web
+VisualStudioVersion = 12.0.30110.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Centrify.Samples.AspNet.ApiDemo", "Centrify.Samples.AspNet.ApiDemo\", "{84D548EB-EF7E-47BA-846A-E83FE42B1C10}"
 	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
 		ProjectReferences = "{f3982827-1a51-4387-8272-b5720e28c597}|Centrify.Samples.AspNet.ApiLib.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_10082"
 		Debug.AspNetCompiler.PhysicalPath = "Centrify.Samples.AspNet.ApiDemo\"
@@ -16,7 +16,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Centrify.Samples.AspNet.Api
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/localhost_10082"
 		Release.AspNetCompiler.PhysicalPath = "Centrify.Samples.AspNet.ApiDemo\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_10081\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_10082\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"

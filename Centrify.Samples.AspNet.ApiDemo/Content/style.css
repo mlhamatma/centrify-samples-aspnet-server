@@ -297,8 +297,11 @@ h4 {
             }
 
 .header {
-    background: url(../Images/bg_transpstrip_header_big.png) no-repeat 0 0 #333233;
+    background-color: #F2F2F2;
+    
 }
+
+
 
     .header > .row {
         border-bottom: 4px solid #929191;
@@ -330,10 +333,31 @@ h4 {
             float: left;
             list-style: none;
             text-transform: uppercase;
+            border-bottom: 4px solid #  ;
+        }
+
+        .header-backup ul li {
+            float: left;
+            list-style: none;
+            text-transform: uppercase;
             border-bottom: 4px solid #af1e23;
         }
 
+
             .header ul li a {
+                color: #141414;
+                font-weight:bold;
+                text-decoration: none;
+				margin: 0 0.5em\9;
+                padding-top: 0.5em\9;
+                padding-bottom: 1em\9;
+                margin: 0 0.5rem;
+                padding-top: 0.5rem;
+                padding-bottom: 1rem;
+			    display: block;
+            }
+
+             .header-backup ul li a {
                 color: #fefefe;
                 text-decoration: none;
 				margin: 0 0.5em\9;
@@ -344,6 +368,12 @@ h4 {
                 padding-bottom: 1rem;
 			    display: block;
             }
+
+            .header ul li a:hover,
+            .header ul li a:active {
+               color: #43956F;
+            }
+
 
             .header ul li.light-orange a:hover,
             .header ul li.light-orange.active a {
@@ -1519,6 +1549,14 @@ h2.medaccess-page span:first-child {
     }
 /*------footer---*/
 .footer {
+    background-color: #F2F2F2;
+    color: #cac9ca;
+    padding: 1.28em 0 0.71em\9;
+	padding: 1.28rem 0 0.71rem;
+
+}
+
+.footer-backup {
     background-color: #333233;
     color: #cac9ca;
     padding: 1.28em 0 0.71em\9;
@@ -1998,6 +2036,10 @@ h2.medaccess-page span:first-child {
 
 @media (max-width: 767px) {
     .main1 {
+        background-color: #F2F2F2;
+    }
+
+    .main1-backup {
         background-color: #333233;
     }
 
@@ -2062,6 +2104,16 @@ h2.medaccess-page span:first-child {
     }
 
     .collapse-menu {
+        top: -4.5rem;
+		top: -4.5em\9;
+        position: absolute;
+        width: 240px !important;
+        background-color: #F2F2F2;
+        left: 133.7%;
+        z-index: 11;
+    }
+
+    .collapse-menu-backup {
         top: -4.5rem;
 		top: -4.5em\9;
         position: absolute;
@@ -2297,6 +2349,17 @@ h2.medaccess-page span:first-child {
     }
 
     .person-description {
+        position: absolute;
+        left: 200%;
+        width: 100%;
+        z-index: 5;
+        background-color: #f9f9f9;
+        -webkit-box-shadow: 0px 6px 4px -6px #F2F2F2;
+        -moz-box-shadow: 0px 6px 4px -6px #F2F2F2;
+        box-shadow: 0px 6px 4px -6px #F2F2F2;
+    }
+
+    .person-description-backup {
         position: absolute;
         left: 200%;
         width: 100%;
