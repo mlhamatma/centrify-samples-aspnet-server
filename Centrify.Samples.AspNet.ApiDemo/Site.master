@@ -64,14 +64,16 @@
         </asp:ScriptManager>
 
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 header">
+         <!--   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="background-color:yellow">-->
             <div class="row">
                 <div class="col-lg-offset-1 col-lg-10 col-md-offset-0 col-md-12 col-sm-offset-0 col-sm-12 col-xs-12">
+                    <!-- <div style ="background-color:yellow">-->
                     <div class="row">
-                        <nav class="navbar" role="navigation">
-                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 ">
+                       <nav class="navbar" role="navigation">
+                         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 ">
                                 <a class="" href="~/Default" runat="server" title="API Demo">
                                     <div class="sfimageWrp">
-                                        <img id="logoPlaceholder_T04B0B661001_ctl00_ctl00_imageItem" title="API Demo" src="/images/logo.png" alt="API Demo">
+                                        <img id="logoPlaceholder_T04B0B661001_ctl00_ctl00_imageItem" title="API Demo" src="/images/mass-logo.png" alt="API Demo">
                                     </div>
                                 </a>
                             </div>
@@ -83,7 +85,7 @@
                                             <br />
                                             <br />
                                             <br />
-                                            <div class="navbar-right">
+                                            <div class="navbar-right" >
                                                 <div class="menu-main-menu-container">
                                                     <div class="navbar-collapse collapse">
                                                         <ul class="nav navbar-nav">
